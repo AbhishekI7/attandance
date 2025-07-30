@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+  
+  header {
+    background-color: #007acc;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #333;
+    padding: 8px 16px;
+    margin-top: 10px;
+    display: inline-block;
+    border-radius: 5px;
+  }
+  
+  #home-buttons {
+    margin-top: 20px;
+  }
+  
+  .home-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007acc;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    margin: 10px;
+    font-size: 1.1em;
+  }
+  
+  .home-btn:hover {
+    background-color: #005f99;
+  }
+  

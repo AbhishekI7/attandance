@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Class Attendance</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./home1.css">
+    <link rel="shortcut icon" href="logo.svg" type="image/x-icon">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="module" src="./TEST.JS"></script>
+  </head>
+  <body>
+    <header>
+      <h1>Welcome to Class Attendance Portal</h1>
+    </header>
+    <a class="home-btn" href="./index.html">HOME</a>
+    <div id="button-container">
+      <a id="btn-III-CSE-A" href="?section=III-CSE-A">III-CSE-A</a>
+      <a id="btn-III-CSE-B" href="?section=III-CSE-B">III-CSE-B</a>
+      <a id="btn-III-CSE-C" href="?section=III-CSE-C">III-CSE-C</a>
+      <a id="btn-III-CSE-D" href="?section=III-CSE-D">III-CSE-D</a>
+      <a id="btn-III-CSE-E" href="?section=III-CSE-E">III-CSE-E</a>
+      <a id="btn-III-CSE-F" href="?section=III-CSE-F">III-CSE-F</a>
+    </div>
+    <button id="select">Select All</button>
+    <button id="unselect">Remove All</button>
+    <div id="attendance-table">
+      <div class="table-heading">
+        <h3>Attendance</h3>
+        <h3>Roll No.</h3>
+        <h3>Name</h3>
+      </div>
+      <div class="table-data">
+        <!-- <div class="22Q91A6691 student A">
+          <p class="att"></p>
+          <p>22Q91A6691</p>
+          <p>Harsh RB</p>
+        </div>
+        <div class="22Q91A66B5 student A">
+          <p class="att"></p>
+          <p>22Q91A66B5</p>
+          <p>PJ</p>
+        </div> -->
+      </div>
+    </div>
+    <button id="copy-button">Copy Attendance</button>
+    <button id="share-button"><p  class="svg-whatsapp-light"></p>Share On Whatsapp</button>
+    <button id="toggle-button">History</button>
+    <div id="display-div"></div> 
+  </body>
+</html>
